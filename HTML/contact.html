@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <link type = "text/css" rel = "stylesheet" href="css/style.css">
+</head>
+<body>
+     <!-- menu -->
+   <table class = "menu" align = center>
+    <tr class = "menu">
+       <th class="menu" width = 33%><a class = "home" href = "home.html">HOME</a></th>
+       <th class="menu" width = 33%><a class = "gallery" href = "gallery.html">GALLERY</a></th>
+       <th class="menu" width = 33%><a class = "contact" href ="contact.html">CONTACT</a></th>
+    </tr>
+ </table>
+  <!-- introduce-->
+  <div class ="introduct">
+     <h1>Kansiree Lee </h1>
+     <h3>Faculty of Computer Engineering</h3>
+     <h5>
+        <a class = "mail" href = "mailto:Kansiree_lee@cmu.ac.th"> Kansiree_lee@cmu.ac.th </a>
+     </h5>
+     <h5>(+66)-93-296-8089</h5>
+     <div class = "pictureAbs">
+      <img  src = "img/200.png" alt = "smily face" style = "border: 1px solid #CFD6C9; border-radius: 12px; background-attachment: fixed; width: 200px; height: 200px;" > 
+     </div>
+  </div>
+  <div class = "form" style = "border: 1px solid #31312E ; border-radius: 12px;">
+   <h2>Talk with us</h2>
+      <form>
+         <div class = "row">
+            <div class = "col-25">
+               <label for="fname">First Name</label>
+            </div>
+            <div class = "col-75">
+               <input type ="text" id="fname" name="firstname" placeholder = "Input your name">
+            </div>
+         </div>
+         <div class ="row">
+            <div class = "col-25">
+               <label for="lname">Last Name</label>
+            </div>
+            <div class = "col-75">
+               <input type="text" id="lname" name="lastname" placeholder = "Input your last name">
+            </div>
+         </div>
+         <div class="row">
+            <div class = "col-25">
+               <label for="gender">Gender</label>
+            </div>
+            <div class = "col-75">
+               <select id="gender" name="gender">
+                  <option value ="male">Male</option>
+                  <option value ="female">Female</option>
+                  <option value ="other">Other</option>
+               </select>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-25">
+               <label for="number">Phone</label>
+            </div>
+            <div class = "col-75">
+               <input type="tel" id="number" name="phone" placeholder = "093xxxxxxx" pattern="[0-9]{10}" required >
+            </div>
+         </div>
+         <div class="row">
+            <div class ="col-25">
+               <label for="fname">Email</label>
+            </div>
+            <div class="col-75">
+               <input type="email" id="fname" name="email"  placeholder="example@hotmail.com">
+            </div>
+         </div>
+         <div class="row">
+            <div class = "col-25">
+               <label for = "subject">Subject</label>
+            </div>
+            <div class = "col-75">
+               <input type="text" id ="subject" name="subjaect" placeholder="Input Subject">
+            </div>
+         </div>
+         <div class="row">
+            <div class = "col-25">
+               <label for="messege">Messege</label>
+            </div>
+            <div class="col-75">
+               <textarea id ="messege" name="messege" placeholder="Write something." style ="height: 200px;"></textarea>       
+            </div>
+         </div>
+         <div class ="row">
+            <input type="submit" value="Submit">
+         </div>
+      </form>   
+  </div>
+  <p style = "text-align: center;">Kansiree Lee - <a class = "mail" href = mailto:Kansiree_lee@cmu.ac.th>Kansiree_lee@cmu.ac.th</a>- tel. (+66)93-296-8089</p>
+</body>
+</html>
